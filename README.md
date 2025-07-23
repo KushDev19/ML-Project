@@ -1,6 +1,6 @@
 # 🎯 Student Performance Predictor
 
-A full-stack machine learning application that predicts student math scores based on demographic factors and test performance. Built with production-grade architecture and deployed on AWS.
+A full-stack machine learning application that predicts student math scores based on demographic factors and test performance. Built with production-grade architecture .
 
 ## 🚀 Overview
 
