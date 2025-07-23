@@ -24,8 +24,8 @@ from src.utils import save_object
 
 @dataclass
 class ModelTrainerConfig:
-    trained_model_file_path = os.path.join("artifacts", "model.pkl")
-    model_report_file_path = os.path.join("artifacts", "model_report.txt")
+    trained_model_file_path = os.path.join("api", "model.pkl")
+    model_report_file_path = os.path.join("api", "model_report.txt")
     
 class ModelTrainer:
     def __init__(self):
