@@ -1,0 +1,16 @@
+MODEL PERFORMANCE RANKING:
+==================================================
+[GOLD] Rank 1: Linear Regression - R2 Score: 0.8795
+[SILVER] Rank 2: Gradient Boosting - R2 Score: 0.8754
+[BRONZE] Rank 3: CatBoosting Regressor - R2 Score: 0.8614
+[----] Rank 4: Random Forest Regressor - R2 Score: 0.8522
+[----] Rank 5: AdaBoost Regressor - R2 Score: 0.8498
+[----] Rank 6: XGBRegressor - R2 Score: 0.8492
+[----] Rank 7: Decision Tree - R2 Score: 0.7661
+[----] Rank 8: K-Neighbors Regressor - R2 Score: 0.4756
+
+Best Model Details:
+Name: Linear Regression
+Score: 0.879516
+Type: LinearRegression
+Parameters: {'copy_X': True, 'fit_intercept': True, 'n_jobs': None, 'positive': False}
