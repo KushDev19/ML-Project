@@ -23,30 +23,6 @@ This project implements a complete ML pipeline for predicting student performanc
 - **Features**: 8 input features (gender, ethnicity, education, etc.)
 - **Target**: Math score (0-100)
 
-## 🏗️ Project Structure
-
-ML-Project/
-├── src/
-│ ├── components/
-│ │ ├── data_ingestion.py # Data loading and splitting
-│ │ ├── data_transformation.py # Preprocessing pipeline
-│ │ └── model_trainer.py # Model training and selection
-│ ├── pipeline/
-│ │ ├── train_pipeline.py # Training orchestration
-│ │ └── predict_pipeline.py # Inference pipeline
-│ ├── exception.py # Custom error handling
-│ ├── logger.py # Logging configuration
-│ └── utils.py # Utility functions
-├── notebook/
-│ ├── EDA student Performance.ipynb
-│ └── Model Training.ipynb
-├── templates/
-│ └── index.html # Web interface
-├── artifacts/ # Model and preprocessor storage
-├── .ebextensions/ # AWS deployment configs
-├── application.py # Flask web application
-└── requirements.txt
-
 
 ## 🤖 Machine Learning Pipeline
 
