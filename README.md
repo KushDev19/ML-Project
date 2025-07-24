@@ -1,19 +1,19 @@
 # 🎯 Student Performance Predictor
 
-A full-stack machine learning application that predicts student math scores based on demographic factors and test performance. Built with production-grade architecture .
+A full-stack machine learning application that predicts student math scores based on demographic factors and test performance. Built with production-grade architecture.
 
 ## 🚀 Overview
 
 This project implements a complete ML pipeline for predicting student performance using multiple algorithms with automated model selection. The system includes a web interface, comprehensive data processing, and production deployment configurations.
 
-**Live Demo**: [Coming Soon]
+**Live Demo**: **[https://ml-project-nu2y.onrender.com/](https://ml-project-nu2y.onrender.com/)**
 
 ## ✨ Features
 
 - **Smart Predictions**: Predicts math scores using reading/writing performance and demographics
 - **Multiple ML Models**: Tests 8 different algorithms and selects the best performer
 - **Web Interface**: Clean, responsive UI with real-time predictions
-- **Production Ready**: Complete with error handling, logging, and AWS deployment
+- **Production Ready**: Complete with error handling, logging, and cloud deployment
 - **Automated Pipeline**: End-to-end data processing and model training
 
 ## 📊 Dataset
@@ -22,7 +22,6 @@ This project implements a complete ML pipeline for predicting student performanc
 - **Size**: 1,000 student records
 - **Features**: 8 input features (gender, ethnicity, education, etc.)
 - **Target**: Math score (0-100)
-
 
 ## 🤖 Machine Learning Pipeline
 
@@ -47,8 +46,7 @@ Automated selection based on R² score with cross-validation to prevent overfitt
 ## 🚀 Quick Start
 
 ### Prerequisites
-
-## Python 3.8+
+- Python 3.8+
 
 ### Installation
 
@@ -67,7 +65,7 @@ python application.py
 
 
 ### Usage
-1. Open your browser to `http://localhost:5000`
+1. Open your browser to `http://localhost:5000` (or visit the live demo above)
 2. Fill in the student information form
 3. Click "Predict Math Score" to get results
 
@@ -93,7 +91,7 @@ The system automatically selects the best-performing model based on:
 | **ML Libraries** | Scikit-learn, XGBoost, CatBoost | Model training and inference |
 | **Data Processing** | Pandas, NumPy | Data manipulation |
 | **Frontend** | HTML5, CSS3, JavaScript | User interface |
-| **Deployment** | AWS Elastic Beanstalk | Cloud hosting |
+| **Deployment** | Render.com | Cloud hosting and CI/CD |
 | **Model Storage** | Pickle | Model serialization |
 
 ## 📋 Input Features
@@ -108,6 +106,14 @@ The system automatically selects the best-performing model based on:
 | **Reading Score** | Numerical | Reading test score (0-100) |
 | **Writing Score** | Numerical | Writing test score (0-100) |
 
+## 🌐 Deployment
+
+This application is deployed on **Render.com** with automatic builds from the main branch. The deployment includes:
+- Automatic dependency installation
+- Python 3.11 runtime for compatibility
+- Zero-downtime deployments
+- HTTPS encryption
+- Global CDN distribution
 
 ## 🤝 Contributing
 
@@ -138,6 +144,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Kaggle for the Students Performance Dataset
 - Scikit-learn community for excellent ML tools
 - Flask community for the lightweight web framework
+- Render.com for seamless deployment experience
 
 ## 📚 Additional Resources
 
@@ -148,6 +155,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 ⭐ **Star this repository if you found it helpful!**
-
-
 
